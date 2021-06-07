@@ -1,6 +1,9 @@
 # React and Snowpack template with gh pages deployments
 __taken the TL;DR comment related to the [issue](https://github.com/snowpackjs/snowpack/discussions/2419)__
 
+## Run `git init`
+To initialize any necessary details in your `package.json`
+
 ## To run with gh pages
 ### npm i gh-pages
 To install gh-pages
