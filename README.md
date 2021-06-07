@@ -3,7 +3,7 @@ __taken the TL;DR comment related to the [issue](https://github.com/snowpackjs/s
 
 ## Run `git init`
 To initialize any necessary details in your `package.json`
-## Running locally
+### Running locally
 `npm run start`
 
 
