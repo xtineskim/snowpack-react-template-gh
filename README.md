@@ -1,25 +1,15 @@
-# New Project
+# React and Snowpack template with gh pages deployments
+__taken the TL;DR comment related to the [issue](https://github.com/snowpackjs/snowpack/discussions/2419)__
 
-> ✨ Bootstrapped with Create Snowpack App (CSA).
+## To run with gh pages
+### npm i gh-pages
+To install gh-pages
 
-## Available Scripts
+#### In your `package.json` file...
+add under the `scripts` :
+```
+    "deploy": "gh-pages -d build"
+```
+And to deploy to gh pages
+### npm run deploy
 
-### npm start
-
-Runs the app in the development mode.
-Open http://localhost:8080 to view it in the browser.
-
-The page will reload if you make edits.
-You will also see any lint errors in the console.
-
-### npm run build
-
-Builds a static copy of your site to the `build/` folder.
-Your app is ready to be deployed!
-
-**For the best production performance:** Add a build bundler plugin like "@snowpack/plugin-webpack" to your `snowpack.config.mjs` config file.
-
-### npm test
-
-Launches the application test runner.
-Run with the `--watch` flag (`npm test -- --watch`) to run in interactive watch mode.

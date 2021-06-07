@@ -11,7 +11,7 @@ export default {
   ],
   optimize: {
     /* Example: Bundle your final build: */
-    // "bundle": true,
+    "bundle": true,
   },
   packageOptions: {
     /* ... */
@@ -20,6 +20,8 @@ export default {
     /* ... */
   },
   buildOptions: {
+    baseUrl: '/YOUR_BASE_URL',
+    metaUrlPath: `/YOUR_BASE_URL/dist`,
     /* ... */
   },
 };
