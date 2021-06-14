@@ -1,5 +1,5 @@
 # React and Snowpack template with gh pages deployments
-__taken the TL;DR related to the [issue](https://github.com/snowpackjs/snowpack/discussions/2419)__, where snowpack runs into bundling issues with snowpack
+__taken the TL;DR related to the [issue](https://github.com/snowpackjs/snowpack/discussions/2419)__, where snowpack runs into bundling issues with gh pages
 
 ## Run `git init`
 To initialize any necessary details in your `package.json`
